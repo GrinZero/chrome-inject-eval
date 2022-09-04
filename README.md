@@ -4,6 +4,13 @@
 
 你可以通过引入本包从而实现在 chrome 插件 v3 版本中使用 eval
 
+## Start
+
+我们推荐你使用npm安装而不是yarn或者pnpm，因为chrome插件开发时（没有webpack/rollup时）如果使用pnpm这种软链接安装的包管理工具是会出问题的
+```bash
+npm i chrome-inject-eval
+```
+
 ## Usage
 
 ### manifest.json
