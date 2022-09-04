@@ -1,0 +1,46 @@
+{
+  "name": "chrome-inject-eval",
+  "version": "1.0.1",
+  "description": "🔮use eval in chrome extension v3+",
+  "main": "dist/umd.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c rollup.config.js",
+    "publish": "npm publish --access public",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrinZero/chrome-inject-eval.git"
+  },
+  "keywords": [
+    "eval",
+    "eval5",
+    "chrome",
+    "evalute",
+    "chrome-eval",
+    "chrome extension",
+    "chrome extension v3"
+  ],
+  "author": "SourceHeartLock",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GrinZero/chrome-inject-eval/issues"
+  },
+  "homepage": "https://github.com/GrinZero/chrome-inject-eval#readme",
+  "dependencies": {
+    "@babel/standalone": "^7.18.13",
+    "eval5": "^1.4.7"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.18.10",
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "rollup": "^2.79.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
