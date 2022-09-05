@@ -1,6 +1,6 @@
 {
   "name": "chrome-inject-eval",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "🔮use eval in chrome extension v3+",
   "main": "dist/umd.min.js",
   "scripts": {
@@ -17,9 +17,9 @@
     "url": "git+https://github.com/GrinZero/chrome-inject-eval.git"
   },
   "keywords": [
+    "chrome",
     "eval",
     "eval5",
-    "chrome",
     "evalute",
     "chrome-eval",
     "chrome extension",
