@@ -1,6 +1,6 @@
 {
   "name": "chrome-inject-eval",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "🔮use eval in chrome extension v3+",
   "main": "dist/umd.min.js",
   "scripts": {
