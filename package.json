@@ -1,6 +1,6 @@
 {
   "name": "chrome-inject-eval",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "🔮use eval in chrome extension v3+",
   "main": "dist/umd.min.js",
   "scripts": {
@@ -31,7 +31,7 @@
     "url": "https://github.com/GrinZero/chrome-inject-eval/issues"
   },
   "homepage": "https://github.com/GrinZero/chrome-inject-eval#readme",
-  "peerDependencies": {
+  "dependencies": {
     "@babel/standalone": "^7.18.13",
     "eval5": "^1.4.7"
   },
